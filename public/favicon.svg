@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#141310"/>
+  <rect x="3" y="3" width="58" height="58" fill="none" stroke="#d3a653" stroke-width="2"/>
+  <text x="32" y="39" fill="#e5c17e" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="-2" text-anchor="middle">DBS</text>
+</svg>
