@@ -293,15 +293,15 @@ figure {
 .services-grid {
   display: grid;
   gap: 1px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   background: rgba(246, 240, 229, 0.12);
   border: 1px solid rgba(246, 240, 229, 0.12);
 }
 
 .service-card {
   background: var(--surface);
-  min-height: 220px;
-  padding: 23px 24px 19px;
+  min-height: 185px;
+  padding: 18px 18px 15px;
   transition: background 180ms ease;
 }
 
@@ -332,22 +332,22 @@ figure {
 .service-card h3 {
   color: var(--cream);
   font-family: var(--display-font);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  margin: 25px 0 7px;
+  margin: 18px 0 7px;
 }
 
 .service-card > p {
   color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.5;
-  margin-bottom: 21px;
+  margin-bottom: 14px;
   min-height: 37px;
 }
 
 .service-card__bottom {
   border-top: 1px solid rgba(246, 240, 229, 0.1);
-  padding-top: 13px;
+  padding-top: 9px;
 }
 
 .service-card__bottom > span {
@@ -361,7 +361,6 @@ figure {
   font-size: 1.22rem;
   font-weight: 500;
   margin-left: auto;
-  padding-right: 12px;
 }
 
 .fine-print {

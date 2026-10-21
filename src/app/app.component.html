@@ -39,7 +39,7 @@
           <div class="service-card__top"><span class="service-card__number">0{{ index + 1 }}</span><span class="service-card__time">{{ service.duration }}</span></div>
           <h3>{{ service.name }}</h3>
           <p>{{ service.description }}</p>
-          <div class="service-card__bottom"><span>Desde</span><strong>{{ service.price }} €</strong><app-booking-link variant="icon" [label]="'Reservar ' + service.name">↗</app-booking-link></div>
+          <div class="service-card__bottom"><span>Desde</span><strong>{{ service.price }} €</strong></div>
         </article>
       }
     </div>
